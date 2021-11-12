@@ -35,7 +35,8 @@ dat_list <- list(
 # compare(m,mg,func=WAIC) # choose less WAIC
 
 
-# PriorPlot <-exp(prior$a + prior$bc[1] + prior$bt[1])
+prior <- extract.prior(m)
+PriorPlot <-exp(prior$a + prior$bc[1] + prior$bt[1])
 
 
 
